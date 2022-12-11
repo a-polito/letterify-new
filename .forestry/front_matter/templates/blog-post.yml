@@ -35,7 +35,7 @@ fields:
   label: hero image
   description: Enter hero image for blog post here
   default: "/content/images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg"
-- name: galery
+- name: gallery
   type: image_gallery
   config: {}
   label: gallery
