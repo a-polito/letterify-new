@@ -1,6 +1,6 @@
 ---
 label: Bio Post
-hide_body: false
+hide_body: true
 fields:
 - name: bio
   type: textarea
