@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import lightGallery from 'lightgallery';
 
-import LightGallery from 'lightgallery/react';
-
 // import styles
 import 'lightgallery/css/lightgallery.css';
 import 'lightgallery/css/lg-zoom.css';
