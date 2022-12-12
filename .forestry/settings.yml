@@ -20,6 +20,10 @@ sections:
 - type: document
   path: content/data/info.json
   label: Info Page
+- type: document
+  path: content/thecreative/content.md
+  label: The Creative Page
+  match: "**/*"
 - type: heading
   label: General Config
 - type: document
