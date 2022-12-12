@@ -1,5 +1,7 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import lightGallery from 'lightgallery';
+
+import LightGallery from 'lightgallery/react';
 
 // import styles
 import 'lightgallery/css/lightgallery.css';
@@ -16,16 +18,16 @@ import lgZoom from 'lightgallery/plugins/zoom';
 
 export function Gallery() {
     
-    React.useEffect(() => {
-        
-        const nodes = Array.prototype.slice.call(document.querySelectorAll('[class^="blog-module--blog__body--"] img'))
-        
-        lightGallery(document.querySelector('[class^="blog-module--blog__body--"]'), {
-            plugins: [lgZoom, lgThumbnail],
-            speed: 500,
-            selector: '[class^="blog-module--blog__body--"] img',
-            exThumbImage: 'src'
-        });
+    React.useEffect(() => {        
+        setTimeout(() => {
+            lightGallery(document.querySelector('[class^="blog-module--blog__body--"]'), {
+                plugins: [lgZoom, lgThumbnail],
+                speed: 500,
+                selector: '[class^="blog-module--blog__body--"] img',
+                exThumbImage: 'src'
+            });
+
+        }, 300)
     }, [])
     return null;
 }
