@@ -18,21 +18,28 @@ export default function Header(props) {
         </Link>
         <div>
           <h1>
-            <Link
-              to={
-                props.page === 'info'
-                  ? "/"
-                  : "/info"
-              }
-              activeClassName={headerStyles.navItemActive}
-            >
-              {props.page === 'info'
-                ? "close"
-                : "info"}
-            </Link>
+            <LinkWithClose currentPage={props.page} linkLabel="la creativa" pageName="thecreative" url="/la-creativa" />
+          </h1>
+          <h1>
+            <LinkWithClose currentPage={props.page} linkLabel="info" pageName="info" url="/info" />
           </h1>
         </div>
       </nav>
     </header>
   )
+}
+
+function LinkWithClose({ currentPage, linkLabel, pageName, url }) {
+  return  <Link
+    to={
+      currentPage === pageName
+        ? "/"
+        : url
+    }
+    activeClassName={headerStyles.navItemActive}
+  >
+    {currentPage === pageName
+      ? "close"
+      : linkLabel}
+  </Link>
 }
