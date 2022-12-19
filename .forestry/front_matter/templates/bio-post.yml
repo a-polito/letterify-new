@@ -7,7 +7,7 @@ fields:
   default: ''
   config:
     required: false
-    wysiwyg: false
+    wysiwyg: true
     schema:
       format: markdown
   label: bio
@@ -16,3 +16,5 @@ fields:
   config:
     maxSize: 64
   label: image
+pages:
+- content/data/author-bio.md
