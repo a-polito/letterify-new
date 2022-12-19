@@ -1,9 +1,11 @@
+@import "../variables";
+
 .layout {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   &.info_page {
-    color: #EBEBEB;
+    color: $info_page_text_color;
   }
 }
 
