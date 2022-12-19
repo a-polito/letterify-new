@@ -11,10 +11,12 @@ fields:
     schema:
       format: markdown
   label: bio
-- name: image
+- name: hero_image
   type: file
   config:
     maxSize: 64
-  label: image
+  label: hero_image
+- name: content_type
+  type: text
 pages:
 - content/data/author-bio.md

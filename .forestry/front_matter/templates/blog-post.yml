@@ -39,6 +39,8 @@ fields:
   type: image_gallery
   config: {}
   label: gallery
+- name: content_type
+  type: text
 pages:
 - content/posts/an-essay-on-walking.md
 - content/posts/ne-te-quaesiveris-extra.md
