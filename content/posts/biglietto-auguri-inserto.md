@@ -2,7 +2,6 @@
 title: Biglietti di auguri con inserto
 date: 
 description: ''
-type: post
 hero_image: "/content/images/whatsapp-image-2022-11-01-at-18-11-26.jpeg"
 author: Robert Thoreau
 categories:
@@ -13,6 +12,8 @@ gallery:
 - "/content/images/98a28ed1-7fe0-430e-a21f-a00b03d413f0.jpeg"
 - "/content/images/bc1e1dda-7203-4047-ac36-3bebe8ab84e8.jpeg"
 - "/content/images/whatsapp-image-2022-11-01-at-18-11-26.jpeg"
+content_type: brick
+
 
 ---
 Posso realizzare biglietti di auguri unici per te ed i tuoi cari.
