@@ -41,6 +41,7 @@ fields:
   label: gallery
 - name: content_type
   type: text
+  label: Content Type
 pages:
 - content/posts/an-essay-on-walking.md
 - content/posts/ne-te-quaesiveris-extra.md
