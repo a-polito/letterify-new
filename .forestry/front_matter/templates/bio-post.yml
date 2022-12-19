@@ -18,5 +18,6 @@ fields:
   label: hero_image
 - name: content_type
   type: text
+  label: Content Type
 pages:
 - content/data/author-bio.md
