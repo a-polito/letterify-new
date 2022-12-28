@@ -8,7 +8,7 @@ import * as classes from "./masonry.module.scss"
 
 export function Listing() {
   const blogData = useBlogData()
-
+  
   return (
     <Masonry
       breakpointCols={3}
@@ -26,6 +26,7 @@ export function Listing() {
                   blog.node.frontmatter.hero_image.childImageSharp.fluid
                 }
                 description={blog.node.excerpt}
+                tags={blog.node.frontmatter.tags}
               />
             </Link>
           )
@@ -34,12 +35,12 @@ export function Listing() {
   )
 }
 
-function Card({ title, imageData, description, tags = ['tag1', 'tag2'] }) {
+function Card({ title, imageData, description, tags = [] }) {
   return (
     <article className={classes.card}>
-      {tags.length && <div className={classes.cardTags}>
+      {tags?.length > 0 && (<div className={classes.cardTags}>
         {tags.map(tag => <span key={tag}>{tag}</span>)}
-      </div>}
+      </div>)}
       <h2 className={classes.cardTitle}>{title}</h2>
       <Img className={classes.cardImg} fluid={imageData} alt={title} />
       <p className={classes.cardDescription}>{description}</p>
