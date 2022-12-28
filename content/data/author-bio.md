@@ -2,7 +2,7 @@
 date: 2019-08-08T22:42:09.000+00:00
 title: La Creativa
 author: Silvia Di Bari
-hero_image: "/content/images/adrien-olichon--aOsCcTJXWY-unsplash.jpg"
+hero_image: "/content/images/silvia.jpeg"
 content_type: author-bio
 ---
 
