@@ -10,7 +10,7 @@ export default function TheCreative() {
   const { frontmatter, html } = useAuthorMetadata()
   
   return (
-    <Layout page="info" bgColor={infoData.background_color}>
+    <Layout page="thecreative" bgColor={infoData.background_color}>
       <section className={styles.info_blurb}>
         <h2>
           <div dangerouslySetInnerHTML={{__html: frontmatter.title}}></div>
