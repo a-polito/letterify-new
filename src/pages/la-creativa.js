@@ -16,7 +16,11 @@ export default function TheCreative() {
           <div dangerouslySetInnerHTML={{__html: frontmatter.title}}></div>
         </h2>
         
-        <Img fluid={frontmatter.hero_image.childImageSharp.fluid} alt={frontmatter.title} />
+        <Img fluid={frontmatter.hero_image.childImageSharp.fluid} alt={frontmatter.title} style={{
+          float: 'left',
+          width: '400px',
+          marginRight: '12px'}}
+        />
 
         <article dangerouslySetInnerHTML={{__html: html}} />
       </section>
