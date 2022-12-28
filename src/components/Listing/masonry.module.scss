@@ -14,9 +14,11 @@
 }
 
 /* Style your items */
+@import "../../styles/variables";
+
 .blog-listing-grid_column > div.card { /* change div to reference your elements you put in <Masonry> */
   background: grey;
-  margin-bottom: 30px;
+  //margin-bottom: 30px;
 }
 
 
@@ -30,19 +32,8 @@
   font-weight: normal;
 }
 
-$spacing_base: 4px;
-$spacing_3xs: $spacing_base * 1;
-$spacing_2xs: $spacing_base * 2;
-$spacing_xs: $spacing_base * 3;
-$spacing_s: $spacing_base * 4;
-$spacing_m: $spacing_base * 5; //20
-$spacing_l: $spacing_base * 6;
-$spacing_xl: $spacing_base * 7;
-$spacing_2xl: $spacing_base * 8;
-$spacing_3xl: $spacing_base * 9;
-
-
 .card {
+  padding-top: $spacing_m;
   //max-height: 250px;
   .card-tags {
     text-align: center;
@@ -62,6 +53,7 @@ $spacing_3xl: $spacing_base * 9;
   }
   .card-description {
     padding: $spacing_m 0;
+    margin: 0;
     //@include text-standard-style;
   }
 
