@@ -18,6 +18,9 @@ export default function Header(props) {
         </Link>
         <div>
           <h1>
+            <LinkWithClose currentPage={props.page} linkLabel="la mia mission" pageName="themission" url="/la-mia-mission" />
+          </h1>
+          <h1>
             <LinkWithClose currentPage={props.page} linkLabel="la creativa" pageName="thecreative" url="/la-creativa" />
           </h1>
           <h1>
