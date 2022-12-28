@@ -5,7 +5,10 @@ export default function useAuthorMetadata() {
       query getAuthorMetadata {
         allMarkdownRemark(
           sort: { order: DESC, fields: frontmatter___date },
-          filter: { frontmatter: { content_type: { eq: "author-bio" }}}
+          filter: {
+            frontmatter: { content_type: { eq: "author-bio" }}
+            fields: { slug: { eq: "author-bio" }}
+          }
           ) {
           edges {
             node {
