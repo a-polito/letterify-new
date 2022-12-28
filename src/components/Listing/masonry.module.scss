@@ -1,4 +1,4 @@
-
+@import "../../styles/variables";
 
 .blog-listing-grid {
     display: -webkit-box; /* Not needed if autoprefixing */
@@ -13,14 +13,9 @@
   background-clip: padding-box;
 }
 
-/* Style your items */
-@import "../../styles/variables";
-
 .blog-listing-grid_column > div.card { /* change div to reference your elements you put in <Masonry> */
   background: grey;
-  //margin-bottom: 30px;
 }
-
 
 @mixin title-bold-style {
   font-size: 18px;
@@ -48,17 +43,28 @@
     //@include title-bold-style;
     //padding: $spacing_m;
   }
-  .card-img {
-    //max-height: 250px;
-  }
+  
   .card-description {
-    padding: $spacing_m 0;
+    padding: $spacing_m;
     margin: 0;
-    //@include text-standard-style;
   }
 
-  .card-tags {
-
+  @media (min-width: 768px) {
+    .card-description {
+      padding: $spacing_m 0;
+    }
   }
+}
 
+.blog-listing-footer {
+  text-align: center; 
+  height: 100px;
+
+  .has-more-button {
+    border: 0;
+    background: #babac7;
+    padding: $spacing_xs $spacing_l;
+    border-radius: 6px;
+    cursor: pointer;
+  }
 }
