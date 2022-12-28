@@ -5,7 +5,8 @@ import blogListStyles from "../styles/components/bloglist.module.scss"
 import Img from 'gatsby-image'
 
 export default function BlogList() {
-  const blogData = useBlogData()
+  const {allBlogPages: blogData } = useBlogData()
+
   function renderBlogData() {
     return (
       <div>
