@@ -11,7 +11,7 @@ import { Gallery } from "../components/Gallery"
 
 export default function Blog(props) {
   const data = props.data.markdownRemark
-  const allBlogData = useBlogData()
+  const {allBlogPages: allBlogData} = useBlogData()
   const nextSlug = getNextSlug(data.fields.slug)
 
   function getNextSlug(slug) {

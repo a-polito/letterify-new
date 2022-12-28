@@ -7,11 +7,12 @@ import useBlogData from "../../static_queries/useBlogData"
 import * as classes from "./masonry.module.scss"
 
 export function Listing() {
-  const blogData = useBlogData()
+  const {pagedBlogPages: blogData, hasMore, handleLoadMore} = useBlogData()
   
   return (
+    <>
     <Masonry
-      breakpointCols={3}
+      breakpointCols={{default: 3, 768:1, 1100: 2}}
       className={classes.blogListingGrid}
       columnClassName={classes.blogListingGrid_column}
     >
@@ -32,6 +33,10 @@ export function Listing() {
           )
         })}
     </Masonry>
+    {hasMore && (<footer className={classes.blogListingFooter}>
+      <button className={classes.hasMoreButton} onClick={handleLoadMore}>Load more</button>
+      </footer>)}
+    </>
   )
 }
 
