@@ -42,6 +42,10 @@ fields:
 - name: content_type
   type: text
   label: Content Type
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
 pages:
 - content/posts/an-essay-on-walking.md
 - content/posts/ne-te-quaesiveris-extra.md
