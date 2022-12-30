@@ -23,7 +23,6 @@ sections:
 - type: document
   path: content/data/author-bio.md
   label: Author Bio
-  match: "**/*"
 - type: heading
   label: General Config
 - type: document
