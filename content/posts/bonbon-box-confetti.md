@@ -17,4 +17,5 @@ Acquistando queste scatoline, non solo supporti l'arte della carta fatta a mano 
 
 Per ordinare le tue scatoline portaconfetti e bonbon accattivanti, contattami con i dettagli della personalizzazione e la quantità desiderata. Sono a tua disposizione per qualsiasi domanda o richiesta speciale!
 
-![](/content/images/confetti3.jpeg) ![](/content/images/confetti2.jpeg)
+![](/content/images/confetti3.jpeg)
+![](/content/images/confetti2.jpeg)
