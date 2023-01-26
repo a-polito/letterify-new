@@ -1,5 +1,5 @@
 ---
-date: 2019-08-08T22:42:09.000+00:00
+#date: 2019-08-08T22:42:09.000+00:00
 title: Biglietti Matrimonio
 author: Allen Ginsberg
 hero_image: "/content/images/9e973cdd-2ad0-486c-9e2f-f1de5627aacb.jpeg"
