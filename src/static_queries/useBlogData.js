@@ -22,7 +22,6 @@ export default function useBlogData() {
                   }
                 }
               }
-              tags
             }
             excerpt(pruneLength: 200)
             fields {
