@@ -1,5 +1,4 @@
 ---
-#date: 2019-07-31T22:43:31.000+00:00
 title: Scatoline portaconfetti e bonbon
 author: Robert Thoreau
 hero_image: "/content/images/ca09ca49-f6ad-4960-877b-4be2b258ac6a.jpeg"
@@ -16,4 +15,4 @@ Le scatoline possono essere personalizzate con i nomi degli sposi o del festeggi
 
 Acquistando queste scatoline, non solo supporti l'arte della carta fatta a mano ma anche darai ai tuoi ospiti un ricordo indimenticabile dell'evento.
 
-Per ordinare le tue scatoline portaconfetti e bonbon accattivanti, contattaci con i dettagli della personalizzazione e la quantità desiderata. Siamo a tua disposizione per qualsiasi domanda o richiesta speciale!
+Per ordinare le tue scatoline portaconfetti e bonbon accattivanti, contattami con i dettagli della personalizzazione e la quantità desiderata. Sono a tua disposizione per qualsiasi domanda o richiesta speciale!
