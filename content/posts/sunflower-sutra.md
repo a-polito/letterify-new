@@ -1,10 +1,11 @@
 ---
 date: 2019-08-08T22:42:09.000+00:00
-title: Sunflower Sutra
+title: 'Biglietti Matrimonio '
 author: Allen Ginsberg
-hero_image: "/content/images/adrien-olichon--aOsCcTJXWY-unsplash.jpg"
+hero_image: "/content/images/9e973cdd-2ad0-486c-9e2f-f1de5627aacb.jpeg"
 content_type: brick
-
+gallery: []
+tags: []
 
 ---
 I walked on the banks of the tincan banana dock and sat down under the huge shade of a Southern Pacific locomotive to look for the sunset over the box house hills and cry.
