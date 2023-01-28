@@ -1,10 +1,10 @@
 ---
-#date: 2022-12-30T21:02:10Z
 hero_image: "/content/images/partecipazioni3.jpeg"
 title: Partecipazioni Di Matrimonio Anno 2022
-#author: Robert Thoreau
 gallery: []
-content_type: 'brick'
+content_type: brick
+date: 
+tags: []
 
 ---
 Le partecipazioni di matrimonio nascono da un tema, un'idea, una passione, un valore e diventano creazioni uniche da condividere con le persone che amate per raccontare qualcosa di voi. Le scritte sono fatte a mano con la tecnica del lettering (no stampante!)
@@ -15,7 +15,7 @@ Per il matrimonio di Nicolas ed Alessia ho realizzato le partecipazioni di matri
 
 ***
 
-INSERISCI LE IMMAGINI QUI
+![](/content/images/d98264fc-d720-431a-b7aa-dc576804ac12.jpeg)
 
 ***
 
@@ -25,7 +25,7 @@ Per il matrimonio di Daniele e Barbara ho realizzato le partecipazioni di matrim
 
 ***
 
-INSERISCI LE IMMAGINI QUI
+![](/content/images/afef9e68-99c3-4284-9c31-0c4241d13768.jpeg)
 
 ***
 
