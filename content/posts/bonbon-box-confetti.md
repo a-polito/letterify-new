@@ -15,7 +15,7 @@ Le scatoline possono essere personalizzate con i nomi degli sposi o del festeggi
 
 Acquistando queste scatoline, darai ai tuoi ospiti un ricordo indimenticabile dell'evento.
 
-Per ordinare le tue scatoline portaconfetti e bonbon, contattami con i dettagli della personalizzazione e la quantità desiderata. Sono a tua disposizione per qualsiasi domanda o richiesta speciale!
+Per ordinare le tue scatoline portaconfetti e bonbon, contattaci con i dettagli della personalizzazione e la quantità desiderata. Sono a tua disposizione per qualsiasi domanda o richiesta speciale!
 
   
 Il costo per scatolina è di **1 Euro** cad. 
