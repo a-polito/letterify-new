@@ -1,14 +1,13 @@
 ---
-#date: 2019-08-08T22:42:09.000+00:00
 title: Biglietti Matrimonio
 author: Allen Ginsberg
-hero_image: "/content/images/9e973cdd-2ad0-486c-9e2f-f1de5627aacb.jpeg"
+hero_image: "/content/images/b057ed6b-ecde-4035-b485-1b4b654c34a0.jpeg"
 content_type: brick
 gallery: []
 tags: []
 
 ---
- Biglietti di auguri per il matrimonio con un tocco di lusso!
+Biglietti di auguri per il matrimonio con un tocco di lusso!
 
 I nostri biglietti di auguri per il matrimonio sono unici e speciali, realizzati a mano con cura e attenzione ai dettagli. Il design elegante e sofisticato rappresenta gli simboli del matrimonio, con un diamante e gli anelli, che li rende perfetti per congratulazioni agli sposi.
 
