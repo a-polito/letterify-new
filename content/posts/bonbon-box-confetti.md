@@ -4,7 +4,8 @@ author: Robert Thoreau
 hero_image: "/content/images/048c9723-7b08-4925-b914-421988081fbe.jpeg"
 content_type: brick
 gallery: []
-tags: []
+tags:
+- Box
 
 ---
 Le nostre scatoline portaconfetti e bonbon sono un'aggiunta perfetta per qualsiasi occasione speciale, come matrimoni, compleanni, battesimi e molto altro. Sono realizzate con cura e attenzione ai dettagli, utilizzando materiali di alta qualità per garantire un aspetto elegante e professionale.
