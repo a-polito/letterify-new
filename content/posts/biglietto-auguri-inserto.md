@@ -21,7 +21,7 @@ Augurare buon compleanno, augurare buone feste o semplicemente dire "ciao" non Ã
 Il costo del biglietto Ã¨ di **2 Euro**, al quale si possono aggiungere i seguenti servizi:
 
 * scritta a piacere con il lettering - da **0,50 cent**
-* busta coordinata - da **0,50 cent**
+* busta coordinata - da **0,50 cent** 
 
 A titolo di esempio, ho realizzato i seguenti biglietti (e quindi disponibili subito):
 
