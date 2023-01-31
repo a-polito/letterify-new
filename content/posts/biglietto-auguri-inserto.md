@@ -43,4 +43,4 @@ A titolo di esempio, ho fatto i seguenti biglietti:
 
 Con queste immagini spero di averti aiutato a comprendere cosa vuol dire "inserto", ovvero un biglietto che viene fustellato raffigurando un motivo e all'interno un ulteriore foglio o cartoncino che mette in evidenza il motivo scelto. Rendi il tuo biglietto unico inserendo un motivo che ha un significato per te o un tuo caro e scegli il colore che più ti piace.
 
-Io ed il mio team siamo a disposizione per qualsiasi domanda o richiesta speciale!
+Io ed il mio team siamo a disposizione per qualsiasi domanda o richiesta speciale! 
