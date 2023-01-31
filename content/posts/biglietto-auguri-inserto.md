@@ -16,7 +16,7 @@ gallery:
 content_type: brick
 
 ---
-Posso realizzare biglietti di auguri unici per te ed i tuoi cari.
+Augurare buon compleanno, augurare buone feste o semplicemente dire "ciao" non è mai stato così bello! I biglietti di auguri artigianali, con inserto personalizzato, sono un modo originale e affettuoso per esprimere i tuoi pensieri. Scegli tra le molteplici opzioni di design e crea il tuo biglietto unico. Non aspettare, ordina oggi il tuo biglietto di auguri con inserto personalizzato!
 
 Il costo del biglietto è di 2 euro, al quale si possono aggiungere i seguenti servizi:
 
