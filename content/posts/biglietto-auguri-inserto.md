@@ -23,7 +23,7 @@ Il costo del biglietto è di 2 euro, al quale si possono aggiungere i seguenti s
 * scritta a piacere con il lettering - da 0,50 cent
 * busta coordinata - da 0,50 cent
 
-A titolo di esempio, ho fatto i seguenti biglietti:
+A titolo di esempio, ho realizzato i seguenti biglietti (e quindi disponibili subito):
 
 * Biglietto con il gatto
 
