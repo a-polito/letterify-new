@@ -26,7 +26,6 @@ sections:
 - type: document
   path: content/data/mission.md
   label: Mission
-  match: "**/*"
 - type: heading
   label: General Config
 - type: document
