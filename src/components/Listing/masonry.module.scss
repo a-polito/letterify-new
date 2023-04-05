@@ -29,7 +29,7 @@
 
 .card {
   padding-top: $spacing_m;
-  //max-height: 250px;
+  
   .card-tags {
     text-align: center;
     padding-bottom: $spacing_m;
@@ -40,8 +40,6 @@
   }
   .card-title {
     text-align: center;
-    //@include title-bold-style;
-    //padding: $spacing_m;
   }
   
   .card-description {
