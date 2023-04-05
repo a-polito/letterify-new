@@ -1,0 +1,38 @@
+@import "../../styles/variables";
+
+.form {
+    label {
+        display: block;
+        margin-top: $spacing_m;
+        margin-bottom: $spacing_2xs;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        border: none;
+        min-width: 300px;
+    }
+    input[type="text"],
+    input[type="email"] {
+        height: 32px;
+    }
+    textarea{
+        height: 100px;
+        width: 200px;
+    }
+
+    .buttons {
+        margin-top: $spacing_s;
+        display: flex;
+        gap: $spacing_s;
+    }
+    input[type="submit"],
+    input[type="reset"],
+    button {
+        padding: $spacing_xs $spacing_m;
+        border: 0;
+        border-radius: 2px;
+    }
+}
+
+@include info_blurb_styles()
