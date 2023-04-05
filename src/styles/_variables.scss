@@ -10,3 +10,29 @@ $spacing_l: $spacing_base * 6;
 $spacing_xl: $spacing_base * 7;
 $spacing_2xl: $spacing_base * 8;
 $spacing_3xl: $spacing_base * 9;
+
+@mixin info_blurb_styles() {
+  .info_blurb {
+    max-width: 800px;
+    padding: 1.5rem 1.25rem;
+    p {
+      color: $info_page_text_color;
+      font-size: 1.4rem;
+    }
+    h2 div p {
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .info_blurb {
+      padding: 2rem;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .info_blurb {
+      padding: 3rem;
+    }
+  }
+}
