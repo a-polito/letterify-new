@@ -1,12 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
-import headerStyles from "../styles/components/header.module.scss"
+import * as headerStyles from "../styles/components/header.module.scss"
 
 export default function Header(props) {
   return (
     <header
-      className={`${headerStyles.header} ${props.page === 'info' &&
-        headerStyles.info_page}`}
+      className={`${headerStyles.header}`}
     >
       <nav
         className={headerStyles.header__nav}
@@ -39,7 +38,6 @@ function LinkWithClose({ currentPage, linkLabel, pageName, url }) {
         ? "/"
         : url
     }
-    activeClassName={headerStyles.navItemActive}
   >
     {currentPage === pageName
       ? "close"

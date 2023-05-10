@@ -15,7 +15,7 @@ Per il matrimonio di Nicolas ed Alessia ho realizzato le partecipazioni di matri
 
 ***
 
-![](/content/images/d98264fc-d720-431a-b7aa-dc576804ac12.jpeg)
+![Alessia-Nicola-partecipazioni](/content/images/d98264fc-d720-431a-b7aa-dc576804ac12.jpeg)
 
 ***
 
@@ -25,7 +25,7 @@ Per il matrimonio di Daniele e Barbara ho realizzato le partecipazioni di matrim
 
 ***
 
-![](/content/images/afef9e68-99c3-4284-9c31-0c4241d13768.jpeg)
+![Barbara-Daniele-partecipazioni](/content/images/afef9e68-99c3-4284-9c31-0c4241d13768.jpeg)
 
 ***
 

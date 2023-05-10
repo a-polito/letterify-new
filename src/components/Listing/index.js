@@ -47,7 +47,7 @@ function Card({ title, imageData, description, tags = [] }) {
         {tags.map(tag => <span key={tag}>{tag}</span>)}
       </div>)}
       <h2 className={classes.cardTitle}>{title}</h2>
-      <Img className={classes.cardImg} fluid={imageData} alt={title} />
+      <Img fluid={imageData} alt={title} />
       <p className={classes.cardDescription}>{description}</p>
     </article>
   )
