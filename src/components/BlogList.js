@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import useBlogData from "../static_queries/useBlogData"
-import blogListStyles from "../styles/components/bloglist.module.scss"
+import * as blogListStyles from "../styles/components/bloglist.module.scss"
 import Img from 'gatsby-image'
 
 export default function BlogList() {
@@ -15,6 +15,7 @@ export default function BlogList() {
           .map(blog => {
             return (
               <Link to={`/blog/${blog.node.fields.slug}`} key={blog.node.id}>
+                ciao
                 <li className={blogListStyles.li} key={blog.node.fields.slug}>
                   <div className={blogListStyles.list__hero}>
                     <Img 

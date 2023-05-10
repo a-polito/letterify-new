@@ -13,7 +13,18 @@ module.exports = {
     infoData: infoData
   },
   plugins: [
-    "gatsby-plugin-sass",
+    //"gatsby-plugin-sass",
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+       cssLoaderOptions: {
+         esModule: false,
+         modules: {
+           namedExport: false,
+         },
+       },
+     },
+    },
     "gatsby-transformer-remark",
     "gatsby-plugin-react-helmet",
     "gatsby-transformer-yaml",
@@ -63,7 +74,11 @@ module.exports = {
             options: {
               maxWidth: 1000,
               linkImagesToOriginal: true,
-              wrapperStyle: () => 'max-width: 250px'
+              //wrapperStyle: () => 'display:flex; max-width: 80%; object-fit: contain;'
+              wrapperStyle: fluidResult => { 
+                console.log(fluidResult); 
+                return `max-width: ${fluidResult.presentationWidth}px; max-height: ${fluidResult.presentationHeight}px;` }
+                //return `max-width: ${1000*fluidResult.aspectRatio};max-height: ${800*fluidResult.aspectRatio};` }
             },
           },
         ],

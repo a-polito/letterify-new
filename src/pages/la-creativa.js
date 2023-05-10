@@ -1,7 +1,7 @@
 import React from "react"
 import Img from "gatsby-image"
 import Layout from "../components/Layout"
-import styles from "../styles/pages/author-bio.module.scss"
+import * as styles from "../styles/pages/author-bio.module.scss"
 import useSiteMetaData from "../static_queries/useSiteMetadata"
 import useAuthorMetadata from "../static_queries/useAuthorMetadata"
 

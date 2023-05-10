@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import { graphql, Link } from "gatsby"
 import useBlogData from '../static_queries/useBlogData'
-import blogTemplateStyles from "../styles/templates/blog.module.scss"
+import * as blogTemplateStyles from "../styles/templates/blog.module.scss"
 //this component handles the blur img & fade-ins
 import Img from 'gatsby-image'
 import { Gallery } from "../components/Gallery"
@@ -32,6 +32,7 @@ export default function Blog(props) {
       <article className={blogTemplateStyles.blog}>
         <figure className={blogTemplateStyles.blog__hero}>
           {data.frontmatter.hero_image && <Img
+            objectFit="cover"
             fluid={data.frontmatter.hero_image.childImageSharp.fluid}
             alt={data.frontmatter.title}
           />}
@@ -70,7 +71,7 @@ export const getPostData = graphql`
         date(formatString: "MMMM Do, YYYY")
         hero_image {
           childImageSharp {
-            fluid(maxWidth: 1500) {
+            fluid(maxWidth: 1000, maxHeight: 600) {
               ...GatsbyImageSharpFluid
             }
           }
