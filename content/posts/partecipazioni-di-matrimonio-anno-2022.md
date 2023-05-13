@@ -1,11 +1,10 @@
 ---
 hero_image: /content/images/636e49d3-f3eb-4274-b56e-cbff42c05bfe.jpeg
-title: Partecipazioni Di Matrimonio Anno 2022
+title: Partecipazioni Di Matrimonio Anno 2023
 gallery: []
 content_type: brick
-date: null
+date: 1970-01-01T00:00:00.000Z
 tags: []
-_template: blog_post
 ---
 
 Le partecipazioni di matrimonio nascono da un tema, un'idea, una passione, un valore e diventano creazioni uniche da condividere con le persone che amate per raccontare qualcosa di voi. Le scritte sono fatte a mano con la tecnica del lettering (no stampante!)
