@@ -1,5 +1,6 @@
 {
   "title": "Letterify",
   "description": "Letterify website showcasing paper cards crafted by Silvia.",
-  "repository_url": "https://github.com/a-polito/letterify-new"
+  "repository_url": "https://github.com/a-polito/letterify-new",
+  "_template": "site_info"
 }
