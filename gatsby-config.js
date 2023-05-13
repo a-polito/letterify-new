@@ -76,7 +76,6 @@ module.exports = {
               linkImagesToOriginal: true,
               //wrapperStyle: () => 'display:flex; max-width: 80%; object-fit: contain;'
               wrapperStyle: fluidResult => { 
-                console.log(fluidResult); 
                 return `max-width: ${fluidResult.presentationWidth}px; max-height: ${fluidResult.presentationHeight}px;` }
                 //return `max-width: ${1000*fluidResult.aspectRatio};max-height: ${800*fluidResult.aspectRatio};` }
             },

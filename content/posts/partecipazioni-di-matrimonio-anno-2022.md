@@ -1,12 +1,13 @@
 ---
-hero_image: "/content/images/636e49d3-f3eb-4274-b56e-cbff42c05bfe.jpeg"
+hero_image: /content/images/636e49d3-f3eb-4274-b56e-cbff42c05bfe.jpeg
 title: Partecipazioni Di Matrimonio Anno 2022
 gallery: []
 content_type: brick
-date: 
+date: null
 tags: []
-
+_template: blog_post
 ---
+
 Le partecipazioni di matrimonio nascono da un tema, un'idea, una passione, un valore e diventano creazioni uniche da condividere con le persone che amate per raccontare qualcosa di voi. Le scritte sono fatte a mano con la tecnica del lettering (no stampante!)
 
 # Nicolas ed Alessia
