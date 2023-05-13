@@ -6,7 +6,7 @@
   "version": "0.1.0",
   "author": "kendall strautman",
   "scripts": {
-    "build": "gatsby build",
+    "build": "tinacms build && gatsby build",
     "dev": "tinacms dev -c 'gatsby develop -o'",
     "develop": "yarn dev",
     "format": "prettier --write src/**/*.{js,jsx}",
