@@ -1,6 +1,6 @@
 ---
 hero_image: /content/images/636e49d3-f3eb-4274-b56e-cbff42c05bfe.jpeg
-title: Partecipazioni Di Matrimonio Anno 2023
+title: Partecipazioni Di Matrimonio Anno 2022
 gallery: []
 content_type: brick
 date: 1970-01-01T00:00:00.000Z
